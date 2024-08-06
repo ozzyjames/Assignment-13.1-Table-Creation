@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Popular Programming Languages</title>
+    <link rel="stylesheet" href="table css.css">
+    <script src="table.js" defer></script>
+</head>
+<body>
+    <h1>Popular Programming Languages</h1>
+    
+    <table id="languageTable">
+        <tr>
+            <th>Language</th>
+            <th>Primary Use</th>
+            <th>Release Year</th>
+        </tr>
+        <tr data-info="Python is known for its simplicity and readability. It's widely used in data science, machine learning, web development, and automation.">
+            <td>Python</td>
+            <td>General-purpose, AI, Data Science</td>
+            <td>1991</td>
+        </tr>
+        <tr data-info="JavaScript is the primary language for front-end web development. It's also used for server-side programming with Node.js.">
+            <td>JavaScript</td>
+            <td>Web Development</td>
+            <td>1995</td>
+        </tr>
+        <tr data-info="Java is known for its 'write once, run anywhere' philosophy. It's widely used in enterprise environments and Android app development.">
+            <td>Java</td>
+            <td>Enterprise Applications, Android Development</td>
+            <td>1995</td>
+        </tr>
+        <tr data-info="C++ is a powerful language used for system/software development, game development, and other performance-critical applications.">
+            <td>C++</td>
+            <td>System/Software Development, Game Development</td>
+            <td>1985</td>
+        </tr>
+    </table>
+
+    <div id="popup" class="popup">
+        <div class="popup-content">
+            <span class="close">&times;</span>
+            <p id="popup-text"></p>
+        </div>
+    </div>
+
+</body>
+</html>
